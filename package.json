@@ -1,0 +1,14 @@
+{
+  "name": "mucklet-script-project",
+  "scripts": {
+    "build": "mucklet-script build",
+    "deploy": "mucklet-script deploy",
+    "build:test": "mucklet-script build --config=test.config.js",
+    "deploy:test": "mucklet-script deploy --config=test.config.js",
+    "logs": "mucklet-script logs --follow"
+  },
+  "type": "module",
+  "dependencies": {
+    "mucklet-script": "^1.65.2"
+  }
+}
